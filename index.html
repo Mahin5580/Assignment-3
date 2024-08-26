@@ -261,14 +261,14 @@
           <h2 class="font-extrabold  text-2xl md:text-4xl ">Our Latest Portfolio</h2>
           <p class="text-secondary max-w-2xl mx-auto py-3.5 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
-        <div class="grid lg:grid-cols-12 grid-cols-1 gap-10 mt-12">
+        <div class="grid lg:grid-cols-12 grid-cols-1 lg:gap-8 gap-5 lg:mt-12">
           <!-- card1 -->
-          <div class="col-span-8 bg-base-100   shadow rounded-2xl border p-8">
-            <div class="flex flex-row gap-8 ">
-              <div class=" h-48 max-w-96 ">
-                <img class="h-full" src="assets/img1.png" alt="">
+          <div class="lg:col-span-8 bg-base-100   shadow rounded-2xl border p-8">
+            <div class="flex flex-col md:flex-row gap-8 ">
+              <div class=" h-48 lg:w-2/6 flex-1 ">
+                <img class="lg:h-full w-full" src="assets/img1.png" alt="">
               </div>
-              <div class="">
+              <div class="flex-1 lg:w-7/12  md:flex-none">
                 <h2 class="card-title text-secondary text-2xl font-extrabold ">Commercial</h2>
                 <p class="text-Gray text-left max-w-lg pt-4 ">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <div class="card-actions justify-start ">
@@ -284,8 +284,8 @@
            </div>
           
           <!--card2  -->
-          <div class="card bg-base-100 max-w-96 shadow col-span-4 border ml-6">
-            <figure class="px-8 pt-9  h-60">
+          <div class="card bg-base-100 lg:max-w-96 shadow lg:col-span-4 border lg:ml-3 ">
+            <figure class="px-8 lg:pt-9 pt-5 pb-5 lg:h-60">
               <img class="h-full w-full"
                 src="assets/img2.png"
                 alt=""
@@ -293,9 +293,20 @@
             </figure>
             
           </div>
+
+          <!--card5 small-->
+           <div class="card bg-base-100  shadow lg:col-span-3 border lg:hidden lg:max-w-72 lg:h-auto max-h-72">
+            <figure class=" lg:h-48 m-8  ">
+              <img class="h-full w-full"
+                src="assets/img5.png"
+                alt=""
+                class="rounded-xl" />
+            </figure>
+            
+          </div>
           <!--card3 -->
-          <div class="card bg-base-100 max-w-72  shadow col-span-3 border ">
-            <figure class=" h-48 m-8  ">
+          <div class="card bg-base-100 lg:max-w-72 hidden lg:block shadow lg:col-span-3 border ">
+            <figure class=" lg:h-48 m-8  ">
               <img class="h-full w-full"
                 src="assets/img3.png"
                 alt=""
@@ -303,11 +314,12 @@
             </figure>
             
           </div>
-          <!-- card4 -->
-           <div class="col-span-6 pt-9 pl-8 pr-5 bg-base-100   shadow rounded-2xl border">
-            <div class="flex flex-row gap-7 ">
+
+          <!-- card4 small -->
+          <div class="lg:col-span-6 pt-9 pl-8 pr-5 bg-base-100 shadow rounded-2xl  border">
+            <div class="flex md:flex-row flex-col gap-7 ">
               <div class="flex-1 h-48 max-w-96 ">
-                <img class="h-full" src="assets/img4.png" alt="">
+                <img class="lg:h-full w-full " src="assets/img4.png" alt="">
               </div>
               <div class="flex-1">
                 <h2 class="card-title text-secondary text-2xl font-extrabold ">Commercial</h2>
@@ -323,18 +335,30 @@
               </div>
             </div>
            </div>
-       
-          
+          <!--card3 -->
+          <div class="card bg-base-100 lg:max-w-72 lg:hidden shadow lg:col-span-3 lg:h-auto max-h-72 border ">
+            <figure class=" lg:h-48 m-8  ">
+              <img class="h-full w-full"
+                src="assets/img3.png"
+                alt=""
+                class="rounded-xl" />
+            </figure>
+            
+          </div>
+
+         
            <!--card5 -->
-           <div class="card bg-base-100  shadow col-span-3 border  max-w-72">
-            <figure class=" h-48 m-8  ">
-              <img class="h-full "
+           <div class="card bg-base-100  shadow lg:col-span-3 border lg:h-auto max-h-72 lg:max-w-72 ">
+            <figure class=" lg:h-48 m-8  ">
+              <img class="h-full w-full"
                 src="assets/img5.png"
                 alt=""
                 class="rounded-xl" />
             </figure>
             
           </div>
+
+          
         </div>
       </section>
    </main>
