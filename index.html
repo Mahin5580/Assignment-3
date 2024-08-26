@@ -35,6 +35,7 @@
             Blue: '#77AAEA',
             Green: '#A4DAC3',
             Yellow: '#EFDA6E',
+            footerBlack: '#1C1C1C',
 
           },
           fontFamily: {
@@ -61,15 +62,15 @@
         <div class="navbar justify-between">
           <div class="justify-start w-1/3">
             <a href=""><i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-primary p-2 mr-2"></i>
-              <a class="text-3xl font-extrabold">Rinterio</a></a>
+              <a href="#" class="text-3xl font-extrabold">Rinterio</a></a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="flex  xl:gap-16  lg:gap-6 px-1 font-extrabold text-Gray">
-              <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Home</a></li>
-              <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Service</a></li>
-              <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Portfolio</a></li>
-              <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Blog</a></li>
-              <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Contact Us</a></li>
+              <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Home</a></li>
+              <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Service</a></li>
+              <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Portfolio</a></li>
+              <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Blog</a></li>
+              <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Contact Us</a></li>
 
             </ul>
           </div>
@@ -80,11 +81,11 @@
               </div>
               <ul tabindex="0"
                 class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-40  p-2 shadow right-0 gap-3">
-                <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Home</a></li>
-                <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Service</a></li>
-                <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Portfolio</a></li>
-                <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Blog</a></li>
-                <li class="hover:text-black transition-colors ease-in-out duration-300"><a>Contact Us</a></li>
+                <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Home</a></li>
+                <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Service</a></li>
+                <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Portfolio</a></li>
+                <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Blog</a></li>
+                <li class="hover:text-black transition-colors ease-in-out duration-300"><a href="#">Contact Us</a></li>
               </ul>
             </div>
             <div class="md:flex items-center hidden">
@@ -179,7 +180,9 @@
       </div>
 
     </section>
+
     <!-- work process -->
+
     <section class=" bg-stone-200 lg:pt-3 pb-20 text-center ">
       <div class="w-10/12 mx-auto space-y-5 ">
         <div class="lg:mt-16 ">
@@ -243,7 +246,9 @@
         </div>
       </div>
     </section>
+
     <!-- portfolio -->
+
     <section class="w-10/12 mx-auto text-center  mb-24">
       <div class="space-y-5">
         <div class="mt-24 ">
@@ -343,7 +348,9 @@
 
       </div>
     </section>
-    <!--  -->
+
+    <!-- discuss -->
+
     <section class="bg-page bg-cover bg-no-repeat  mx-auto text-center   pt-4">
 
       <div class="space-y-5 w-11/12 mx-auto">
@@ -364,13 +371,15 @@
 
           <input type="text" class="p-4 md:col-span-1 col-span-2 rounded-full" placeholder="Last Name*" name="" id="">
 
-          <input type="number" class="p-4 md:col-span-1 col-span-2 rounded-full" placeholder="Phone Number*" name="" id="">
+          <input type="number" class="p-4 md:col-span-1 col-span-2 rounded-full" placeholder="Phone Number*" name=""
+            id="">
 
-          <input type="email" class="p-4 md:col-span-1 col-span-2 rounded-full" placeholder="Email Number*" name="" id="">
+          <input type="email" class="p-4 md:col-span-1 col-span-2 rounded-full" placeholder="Email Number*" name=""
+            id="">
 
 
-          <textarea class="p-4  rounded-3xl row-span-5 md:row-span-3 col-span-2" placeholder="Write your message here" name=""
-            id=""></textarea>
+          <textarea class="p-4  rounded-3xl row-span-5 md:row-span-3 col-span-2" placeholder="Write your message here"
+            name="" id=""></textarea>
 
           <button class="col-span-2  bg-primary rounded-full py-3 px-4 flex justify-center">
             <span class=" font-extrabold text-xl  pr-2">Send Mail</span>
@@ -384,8 +393,37 @@
     </section>
   </main>
   <!-- footer section -->
-  <footer>
+  <footer class="bg-footerBlack py-24 ">
+    <div class="space-y-5 w-11/12 mx-auto">
+      <div class="flex items-center justify-center">
+        <a href=""><i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-primary p-2  mr-2"></i>
+          <a class="text-3xl  text-white font-extrabold">Rinterio</a>
+      </div>
+      <p class="text-Gray max-w-2xl text-center mx-auto py-3.5 m">The barn house captivates with its blend of rustic
+        charm and
+        modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
+       
+    </div>
+    <div class="my-10 flex  justify-center">
+      <ul class="flex md:flex-row flex-col gap-7 md:gap-36  px-1 font-medium text-white">
+        <li class="text-center"><a href="#">Home</a></li>
+        <li class="text-center"><a href="#">Service</a></li>
+        <li class="text-center"><a href="#">Portfolio</a></li>
+        <li class="text-center"><a href="#">Blog</a></li>
+        <li class="text-center"><a href="#">Contact Us</a></li>
+
+      </ul>
+    </div>
+   <div class="md:flex justify-center">
+    <div class="grid   mx-7  pt-5">
+      <button class="  justify-center bg-primary rounded-full py-3 px-4 flex">
+        <span class=" font-extrabold text-xl pr-2">Book Consult</span>
+        <i class="fa-solid fa-arrow-right -rotate-45 rounded-full  text-white  bg-black p-2 "></i>
+
+      </button>
+    </div>
+   </div>
   </footer>
 </body>
 
